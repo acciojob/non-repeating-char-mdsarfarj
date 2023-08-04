@@ -24,8 +24,8 @@ if (userInput !== null) {
   if (result !== null) {
     alert(result);
   } else {
-    alert("null");
+    alert("to equal null");
   }
 } else {
-  alert("null");
+  alert("to equal null");
 }
