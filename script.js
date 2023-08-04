@@ -24,8 +24,8 @@ if (userInput !== null) {
   if (result !== null) {
     alert(result);
   } else {
-    alert("No non-repeated character found.");
+    alert("null");
   }
 } else {
-  alert("No input provided.");
+  alert("null");
 }
