@@ -9,11 +9,11 @@ function firstNonRepeatedCharacter(inputString) {
   // Find the first non-repeated character
   for (const char of inputString) {
     if (charCount[char] === 1) {
-      return char;
+      return char; // Return the first non-repeated character found
     }
   }
 
-  return null; // Return null if there's no non-repeated character
+  return null; // Return null if there is no non-repeated character
 }
 
 // Get user input using prompt
@@ -22,10 +22,10 @@ const userInput = prompt("Enter a string:");
 if (userInput !== null) {
   const result = firstNonRepeatedCharacter(userInput);
   if (result !== null) {
-    alert(result);
+    alert(result});
   } else {
-    alert("to equal null");
+    alert("No non-repeated character found");
   }
 } else {
-  alert("to equal null");
+  alert("No input provided");
 }
